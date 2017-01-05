@@ -1,12 +1,19 @@
 package com.bi16java;
 
+// SQL support
 import java.sql.*;
+// Java utils for lists and arrays
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by tsytrin on 03.01.2017.
  */
+
+// AccountDAOImpl implementation of the IAccountDAO interface. This class can contain all
+// Account specific code and SQL statements. The client is thus shielded from knowing
+// these implementation details.
+
 public class AccountDAOImpl implements IAccountDAO {
 
     private static final String DELETE = "DELETE FROM Account WHERE Account_ID=?";

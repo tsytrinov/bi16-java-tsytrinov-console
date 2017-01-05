@@ -1,5 +1,6 @@
 package com.bi16java;
 
+// Libraries for supporting of configuration files
 import org.apache.commons.configuration.ConfigurationException;
 import org.apache.commons.configuration.PropertiesConfiguration;
 
@@ -12,7 +13,7 @@ import java.sql.SQLException;
  */
 public class ConnectionManager {
 
-    //static reference to itself
+    //Static reference to itself
     private static ConnectionManager instance = new ConnectionManager();
     public static String dbServerURL;
     public static String dbAccount;
