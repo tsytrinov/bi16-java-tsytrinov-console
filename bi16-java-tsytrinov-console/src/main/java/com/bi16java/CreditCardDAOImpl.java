@@ -8,9 +8,9 @@ import java.util.List;
  * Created by tsytrin on 03.01.2017.
  */
 
-// CreditCardDAOImpl implementation of the ICreditCardDAO interface. This class can contain all
-// CreditCard specific code and SQL statements. The client is thus shielded from knowing
-// these implementation details.
+// CreditCardDAOImpl implementation of the ICreditCardDAO interface.
+// This class can contain all database specific Java code and SQL statements for CreditCard entity.
+
 
 public class CreditCardDAOImpl implements ICreditCardDAO {
 

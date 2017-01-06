@@ -7,6 +7,12 @@ import java.util.List;
 /**
  * Created by tsytrin on 03.01.2017.
  */
+
+// TransactionDAOImpl implementation of the ITransactionDAO interface.
+// This class can contain all database specific Java code and SQL statements for Transaction entity.
+
+
+
 public class TransactionDAOImpl implements ITransactionDAO {
 
     private static final String DELETE = "DELETE FROM Transaction WHERE Transaction_ID=?";

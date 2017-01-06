@@ -10,9 +10,8 @@ import java.util.List;
  * Created by tsytrin on 03.01.2017.
  */
 
-// AccountDAOImpl implementation of the IAccountDAO interface. This class can contain all
-// Account specific code and SQL statements. The client is thus shielded from knowing
-// these implementation details.
+// AccountDAOImpl implementation of the IAccountDAO interface.
+//This class can contain all database specific Java code and SQL statements for Account entity.
 
 public class AccountDAOImpl implements IAccountDAO {
 
